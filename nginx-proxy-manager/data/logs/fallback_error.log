@@ -114,3 +114,9 @@
 2024/12/03 12:15:55 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
 2024/12/03 12:17:13 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
 2024/12/03 12:17:13 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/12/03 12:32:44 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/12/03 12:32:44 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/12/03 12:47:18 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/12/03 12:47:18 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
+2024/12/03 13:10:53 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:19
+2024/12/03 13:10:53 [warn] 157#157: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/1.conf:20
