@@ -1,0 +1,87 @@
+2024/07/17 12:07:13 [warn] 177#177: 512 worker_connections are not enough, reusing connections
+2024/07/17 12:07:13 [alert] 177#177: 512 worker_connections are not enough
+2024/07/17 12:07:13 [error] 177#177: *725 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/17 12:09:35 [alert] 177#177: 512 worker_connections are not enough
+2024/07/17 12:09:35 [error] 177#177: *1366 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.102", referrer: "http://192.168.31.102/"
+2024/07/17 12:25:57 [alert] 293#293: 512 worker_connections are not enough
+2024/07/17 12:25:57 [alert] 293#293: 512 worker_connections are not enough
+2024/07/17 12:29:50 [warn] 413#413: 512 worker_connections are not enough, reusing connections
+2024/07/17 12:29:50 [alert] 413#413: 512 worker_connections are not enough
+2024/07/17 12:29:50 [error] 412#412: *2776 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/17 16:00:32 [warn] 684#684: 512 worker_connections are not enough, reusing connections
+2024/07/17 16:00:32 [alert] 684#684: 512 worker_connections are not enough
+2024/07/17 16:00:32 [error] 684#684: *4140 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.102", referrer: "http://192.168.31.102/"
+2024/07/17 17:01:21 [alert] 731#731: 512 worker_connections are not enough
+2024/07/17 17:01:21 [error] 731#731: *4906 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.102", referrer: "http://192.168.31.102/"
+2024/07/17 17:21:51 [warn] 795#795: 512 worker_connections are not enough, reusing connections
+2024/07/17 17:21:51 [alert] 795#795: 512 worker_connections are not enough
+2024/07/17 17:21:51 [error] 796#796: *5750 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.102", referrer: "http://192.168.31.102/"
+2024/07/17 17:22:34 [error] 174#174: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/17 17:23:05 [error] 174#174: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/17 17:24:07 [warn] 174#174: 512 worker_connections are not enough, reusing connections
+2024/07/17 17:24:07 [alert] 174#174: 512 worker_connections are not enough
+2024/07/17 17:24:07 [error] 175#175: *627 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2024/07/17 17:25:04 [error] 174#174: *636 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "localhost"
+2024/07/17 17:25:06 [error] 174#174: *636 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "localhost"
+2024/07/17 17:25:09 [error] 174#174: *636 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "localhost"
+2024/07/17 17:25:09 [warn] 174#174: 512 worker_connections are not enough, reusing connections
+2024/07/17 17:25:09 [alert] 174#174: 512 worker_connections are not enough
+2024/07/17 17:25:09 [error] 175#175: *1331 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/api"
+2024/07/17 17:25:13 [error] 174#174: *636 open() "/var/www/html/pi" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /pi HTTP/1.1", host: "localhost"
+2024/07/17 17:25:17 [error] 174#174: *636 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "localhost"
+2024/07/17 17:25:17 [error] 174#174: *636 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "localhost"
+2024/07/17 17:41:26 [alert] 416#416: 512 worker_connections are not enough
+2024/07/17 17:41:26 [error] 416#416: *2200 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2024/07/17 17:43:22 [alert] 514#514: 512 worker_connections are not enough
+2024/07/17 17:43:22 [error] 514#514: *2890 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/17 17:50:53 [warn] 175#175: 512 worker_connections are not enough, reusing connections
+2024/07/17 17:50:53 [alert] 175#175: 512 worker_connections are not enough
+2024/07/17 17:50:53 [error] 175#175: *720 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.102", referrer: "http://192.168.31.102/"
+2024/07/17 17:54:31 [error] 175#175: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/nginx/access-lists?expand=items,clients HTTP/1.1", upstream: "http://127.0.0.1:3000/nginx/access-lists?expand=items,clients", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/17 17:54:31 [error] 176#176: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/nginx/certificates HTTP/1.1", upstream: "http://127.0.0.1:3000/nginx/certificates", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/17 20:10:36 [error] 217#217: *65 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "192.168.31.100"
+2024/07/17 20:10:36 [warn] 217#217: 512 worker_connections are not enough, reusing connections
+2024/07/17 20:10:36 [alert] 217#217: 512 worker_connections are not enough
+2024/07/17 20:10:36 [error] 217#217: *814 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.100", referrer: "http://192.168.31.100/api"
+2024/07/17 20:10:36 [error] 217#217: *65 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "192.168.31.100"
+2024/07/17 20:10:37 [error] 217#217: *65 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "192.168.31.100"
+2024/07/17 20:10:38 [error] 217#217: *65 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "192.168.31.100"
+2024/07/17 20:10:38 [error] 217#217: *65 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "192.168.31.100"
+2024/07/17 20:10:38 [error] 217#217: *65 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "192.168.31.100"
+2024/07/17 20:51:46 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/17 20:51:46 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/17 21:45:27 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/17 21:45:27 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/17 21:46:08 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/17 21:46:08 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/18 00:57:14 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/18 00:57:14 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/18 01:00:27 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/18 01:00:27 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/18 01:57:39 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/18 01:57:39 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/18 02:05:51 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/18 02:05:51 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/18 02:05:54 [error] 821#821: *3028 open() "/var/www/html/login" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /login HTTP/1.1", host: "www.reactchatter.in"
+2024/07/18 02:05:55 [error] 821#821: *3028 open() "/var/www/html/login" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /login HTTP/1.1", host: "www.reactchatter.in"
+2024/07/18 02:06:21 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/18 02:06:21 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/18 02:34:54 [warn] 238#238: 512 worker_connections are not enough, reusing connections
+2024/07/18 02:34:54 [alert] 238#238: 512 worker_connections are not enough
+2024/07/18 02:34:54 [error] 238#238: *728 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2024/07/18 02:34:58 [error] 238#238: *142 open() "/var/www/html/api" failed (2: No such file or directory), client: 192.168.65.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2024/07/18 02:36:32 [warn] 260#260: 512 worker_connections are not enough, reusing connections
+2024/07/18 02:36:32 [alert] 260#260: 512 worker_connections are not enough
+2024/07/18 02:36:32 [error] 261#261: *1356 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/18 02:36:43 [warn] 147#147: conflicting server name "localhost" on 0.0.0.0:443, ignored
+2024/07/18 02:36:43 [warn] 147#147: conflicting server name "localhost" on [::]:443, ignored
+2024/07/19 11:19:36 [warn] 175#175: 512 worker_connections are not enough, reusing connections
+2024/07/19 11:19:36 [alert] 175#175: 512 worker_connections are not enough
+2024/07/19 11:19:36 [error] 175#175: *578 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.31.100", referrer: "http://192.168.31.100/"
+2024/07/19 11:26:10 [error] 175#175: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/19 19:24:27 [error] 185#185: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/19 19:24:29 [error] 185#185: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/"
+2024/07/19 19:30:48 [error] 175#175: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/19 19:38:42 [error] 176#176: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/19 19:39:13 [error] 176#176: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
+2024/07/20 19:21:44 [error] 176#176: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/nginx/proxy"
