@@ -4,3 +4,7 @@
 [07/Mar/2025:17:32:55 +0000] 400 - GET http localhost "/" [Client 192.168.65.1] [Length 654] [Gzip -] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
 [07/Mar/2025:17:32:55 +0000] 400 - GET http localhost "/favicon.ico" [Client 192.168.65.1] [Length 654] [Gzip -] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "http://localhost:443/"
 [07/Mar/2025:17:33:00 +0000] 400 - GET http localhost "/favicon.ico" [Client 127.0.0.1] [Length 230] [Gzip -] "-" "-"
+[07/Mar/2025:17:53:53 +0000] 200 - GET http 192.168.31.206 "/" [Client 192.168.65.1] [Length 568] [Gzip 1.86] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
+[07/Mar/2025:17:53:53 +0000] 400 - GET http 192.168.31.206 "/favicon.ico" [Client 127.0.0.1] [Length 230] [Gzip -] "-" "-"
+[07/Mar/2025:17:57:48 +0000] 400 - GET http localhost "/" [Client 192.168.65.1] [Length 654] [Gzip -] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
+[07/Mar/2025:17:57:48 +0000] 400 - GET http localhost "/favicon.ico" [Client 192.168.65.1] [Length 654] [Gzip -] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "http://localhost:443/"

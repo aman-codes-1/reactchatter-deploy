@@ -1,0 +1,1 @@
+[07/Mar/2025:17:47:39 +0000] - 200 200 - GET http 192.168.1.34 "/favicon.ico" [Client 192.168.65.1] [Length 9317] [Gzip -] [Sent-to 192.168.1.34] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "http://192.168.1.34/"
