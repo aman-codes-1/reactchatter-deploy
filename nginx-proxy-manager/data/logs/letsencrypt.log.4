@@ -1,16 +1,16 @@
-2026-04-21 07:22:06,023:DEBUG:certbot._internal.main:certbot version: 5.3.1
-2026-04-21 07:22:06,024:DEBUG:certbot._internal.main:Location of certbot entry point: /opt/certbot/bin/certbot
-2026-04-21 07:22:06,024:DEBUG:certbot._internal.main:Arguments: ['--config', '/etc/letsencrypt.ini', '--work-dir', '/tmp/letsencrypt-lib', '--logs-dir', '/data/logs', '--cert-path', '/etc/letsencrypt/live/npm-1/fullchain.pem', '--delete-after-revoke']
-2026-04-21 07:22:06,024:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#dns-cloudflare,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
-2026-04-21 07:22:06,140:DEBUG:certbot._internal.log:Root logging level set at 30
-2026-04-21 07:22:06,143:DEBUG:certbot._internal.main:Revoking /etc/letsencrypt/live/npm-1/fullchain.pem using Account Key
-2026-04-21 07:22:06,219:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
-2026-04-21 07:22:06,222:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
-2026-04-21 07:22:07,204:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 1033
-2026-04-21 07:22:07,206:DEBUG:acme.client:Received response:
+2026-04-21 07:22:12,530:DEBUG:certbot._internal.main:certbot version: 5.3.1
+2026-04-21 07:22:12,531:DEBUG:certbot._internal.main:Location of certbot entry point: /opt/certbot/bin/certbot
+2026-04-21 07:22:12,531:DEBUG:certbot._internal.main:Arguments: ['--config', '/etc/letsencrypt.ini', '--work-dir', '/tmp/letsencrypt-lib', '--logs-dir', '/data/logs', '--cert-path', '/etc/letsencrypt/live/npm-2/fullchain.pem', '--delete-after-revoke']
+2026-04-21 07:22:12,531:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#dns-cloudflare,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2026-04-21 07:22:12,660:DEBUG:certbot._internal.log:Root logging level set at 30
+2026-04-21 07:22:12,663:DEBUG:certbot._internal.main:Revoking /etc/letsencrypt/live/npm-2/fullchain.pem using Account Key
+2026-04-21 07:22:12,771:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2026-04-21 07:22:12,773:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2026-04-21 07:22:13,715:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 1033
+2026-04-21 07:22:13,716:DEBUG:acme.client:Received response:
 HTTP 200
 Server: nginx
-Date: Tue, 21 Apr 2026 07:22:07 GMT
+Date: Tue, 21 Apr 2026 07:22:13 GMT
 Content-Type: application/json
 Content-Length: 1033
 Connection: keep-alive
@@ -19,6 +19,7 @@ X-Frame-Options: DENY
 Strict-Transport-Security: max-age=604800
 
 {
+  "hESUklJKS8s": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
   "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
   "meta": {
     "caaIdentities": [
@@ -36,57 +37,56 @@ Strict-Transport-Security: max-age=604800
   "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
   "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
   "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
-  "nnux2L5yMq0": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
   "renewalInfo": "https://acme-v02.api.letsencrypt.org/acme/renewal-info",
   "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert"
 }
-2026-04-21 07:22:07,208:DEBUG:certbot._internal.main:Reason code for revocation: 0
-2026-04-21 07:22:07,209:DEBUG:acme.client:Requesting fresh nonce
-2026-04-21 07:22:07,209:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
-2026-04-21 07:22:07,490:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
-2026-04-21 07:22:07,491:DEBUG:acme.client:Received response:
+2026-04-21 07:22:13,718:DEBUG:certbot._internal.main:Reason code for revocation: 0
+2026-04-21 07:22:13,718:DEBUG:acme.client:Requesting fresh nonce
+2026-04-21 07:22:13,718:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2026-04-21 07:22:14,102:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2026-04-21 07:22:14,103:DEBUG:acme.client:Received response:
 HTTP 200
 Server: nginx
-Date: Tue, 21 Apr 2026 07:22:07 GMT
+Date: Tue, 21 Apr 2026 07:22:13 GMT
 Connection: keep-alive
 Cache-Control: public, max-age=0, no-cache
 Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
-Replay-Nonce: ez21D-ebyvSAB0GOJ5Xm4grMtSIKafmQp3nU7zp3VG8dyefxd6U
+Replay-Nonce: IRr4kSssS-KpWFJCWHMLbr9w_VU1ja3tdtmJ580Pyq0XY62jtFc
 X-Frame-Options: DENY
 Strict-Transport-Security: max-age=604800
 
 
-2026-04-21 07:22:07,491:DEBUG:acme.client:Storing nonce: ez21D-ebyvSAB0GOJ5Xm4grMtSIKafmQp3nU7zp3VG8dyefxd6U
-2026-04-21 07:22:07,492:DEBUG:acme.client:JWS payload:
-b'{\n  "certificate": "MIIDvTCCA0SgAwIBAgISBk5ku72RNaXIrMYoUr3IU7wRMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNzAeFw0yNjA0MjEwNjIyMDdaFw0yNjA3MjAwNjIyMDZaMB0xGzAZBgNVBAMMEioucmVhY3RjaGF0dGVyLnRvcDB2MBAGByqGSM49AgEGBSuBBAAiA2IABNMjb8iivnTjNPOypy0wXs2WTT_yxCGqsq4R9B9B_mrpdZF2T2TmOcMdRt5L1BJGjgJHe0VIbsrA6zCvDcMXvzInwI7BUZWRQkp13hx6raoSK88x2ekv71dI8U42S421B6OCAjAwggIsMA4GA1UdDwEB_wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBS4goG9xTqReqSNLSxvvAj8d_U7lTAfBgNVHSMEGDAWgBSuSJ7chx1EoG_aouVgdAR4wpwAgDAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lNy5pLmxlbmNyLm9yZy8wLwYDVR0RBCgwJoISKi5yZWFjdGNoYXR0ZXIudG9wghByZWFjdGNoYXR0ZXIudG9wMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC0GA1UdHwQmMCQwIqAgoB6GHGh0dHA6Ly9lNy5jLmxlbmNyLm9yZy8xOC5jcmwwggEMBgorBgEEAdZ5AgQCBIH9BIH6APgAdgDCMX5XRRmjRe5_ON6ykEHrx8IhWiK_f9W1rXaa2Q5SzQAAAZ2u6ZllAAAEAwBHMEUCIQD-TMd7r5sYxgAUi2L_Io3CVy2oFtY1kra7Iu0duQG0AwIgKKg02QM2TNMHGprzAas5GPrmAerWbEBSToF1Otw4MD8AfgAm42RuWGkhI7w0P0ckNZs3ks0kWojYFdOTM_2ZGKtHIwAAAZ2u6ZmeAAgAAAUACPnRwAQDAEcwRQIhAJn5KYEsSjNtAu_RbbYFZTroJ4yFiunkDNIUyPzldaSBAiASUonrLpEaNgdYO_y38XZSzzNHPTZfwnuDQPIEBTd3ijAKBggqhkjOPQQDAwNnADBkAjEA_N37rU5xIlqYJYlPGZPuN35tJHEK-imD-cWzrmizTlqTp5CWESDAZbBbdv0wPWWbAi9u0Qap88hidIyLrm-1M1NaIn6E5_HFOjf89JvgtBKqLZGfkV1N1TzQ3ZiW-EqQig",\n  "reason": 0\n}'
-2026-04-21 07:22:07,496:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/revoke-cert:
+2026-04-21 07:22:14,103:DEBUG:acme.client:Storing nonce: IRr4kSssS-KpWFJCWHMLbr9w_VU1ja3tdtmJ580Pyq0XY62jtFc
+2026-04-21 07:22:14,104:DEBUG:acme.client:JWS payload:
+b'{\n  "certificate": "MIIDvjCCA0OgAwIBAgISBeC9IkClFnUZrvGvKa1lxPpfMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODAeFw0yNjA0MjEwNjIzMjZaFw0yNjA3MjAwNjIzMjVaMB0xGzAZBgNVBAMMEioucmVhY3RjaGF0dGVyLnRvcDB2MBAGByqGSM49AgEGBSuBBAAiA2IABKlsFodmo5hkILzIc5MYx1Bf-BawzQFogsHmJ_Vw4W3OFj_G8IyUbZ9iXg94LOVwTF1dcNKD1j94z2HYK2CKZqcBTdoWzbA8YlrQLn-k0htmaxuyJV-49MgaVDVK0KaezqOCAi8wggIrMA4GA1UdDwEB_wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBR3Iy4ipMpXm3kLf3ZMft05P3CnlDAfBgNVHSMEGDAWgBSPDROi9i5-0VBsMxg4XVmOI3KRyjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lOC5pLmxlbmNyLm9yZy8wLwYDVR0RBCgwJoISKi5yZWFjdGNoYXR0ZXIudG9wghByZWFjdGNoYXR0ZXIudG9wMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC0GA1UdHwQmMCQwIqAgoB6GHGh0dHA6Ly9lOC5jLmxlbmNyLm9yZy85Ni5jcmwwggELBgorBgEEAdZ5AgQCBIH8BIH5APcAdQDLOPcViXyEoURfW8Hd-8lu8ppZzUcKaQWFsMsUwxRY5wAAAZ2u6swmAAAEAwBGMEQCIB6r6EiRw7vpNuvkMnTsRTg7kMEUGaGqF5z8umkR5pUFAiAEqnGVf6vmnrhlVlyNKsXYxvNoAE-_UN8Qrn3v7IaRYwB-ABqLnWsP_r-BtHk5xtIxCobW0QLU8EbiGCyd419eJiXvAAABna7qzN0ACAAABQAK29A7BAMARzBFAiBKywMnS2wQIqV9CIthwxLE3hmTRe5vR7HS9Rm4YcX-igIhAKNlCrHBZN1dh7L4R1rsRqoo72trD5jcuagUoP0kzuxoMAoGCCqGSM49BAMDA2kAMGYCMQDEuwKm6McyzZ3IFCmgaKQndJ6qBvLGKbvOn_KG8f19-GCZFTE-Czv4p4FZxYRbwokCMQDU6Ro5LUdbBGjsCC6FDHwcMUxMYkkByz6-QlJw8m_5omaTIc13uPXvaWxMSwUBW8Q",\n  "reason": 0\n}'
+2026-04-21 07:22:14,108:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/revoke-cert:
 {
-  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMzI2MDQ5MTY3MSIsICJub25jZSI6ICJlejIxRC1lYnl2U0FCMEdPSjVYbTRnck10U0lLYWZtUXAzblU3enAzVkc4ZHllZnhkNlUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL3Jldm9rZS1jZXJ0In0",
-  "signature": "DFiYsUPAad1GiBLWMe0P0XZZl4FulRpTxztPn5SeAOPzFUha71CSD3RaM83SlGoqsZ5wr46gyW40vbpvBqUkqy9tXLrqi6WU5RsHSfLqZuhXPyPZ_LrP9SYBnd48z_rl8B54E8reW7vOYVdUq5DbZKXk7Gvm0cTMIzxd5ROggZYseY6p1B-EZGYfbmFn9ugz2WidKOAO498T2nrWiueUcdt25ConzzmMfjc8cUzOso-22T4Iu6kanjUkPAZJGuxNxNbmvvf_iI5oT1FQ5CoOjYHS0j5YOvKhS9K5oXzPpDmPyzkHr9NfK85dAHgCMZiLqFdSQKkh-ZvNZpTPVxWCjw",
-  "payload": "ewogICJjZXJ0aWZpY2F0ZSI6ICJNSUlEdlRDQ0EwU2dBd0lCQWdJU0JrNWt1NzJSTmFYSXJNWW9VcjNJVTd3Uk1Bb0dDQ3FHU000OUJBTURNREl4Q3pBSkJnTlZCQVlUQWxWVE1SWXdGQVlEVlFRS0V3MU1aWFFuY3lCRmJtTnllWEIwTVFzd0NRWURWUVFERXdKRk56QWVGdzB5TmpBME1qRXdOakl5TURkYUZ3MHlOakEzTWpBd05qSXlNRFphTUIweEd6QVpCZ05WQkFNTUVpb3VjbVZoWTNSamFHRjBkR1Z5TG5SdmNEQjJNQkFHQnlxR1NNNDlBZ0VHQlN1QkJBQWlBMklBQk5NamI4aWl2blRqTlBPeXB5MHdYczJXVFRfeXhDR3FzcTRSOUI5Ql9tcnBkWkYyVDJUbU9jTWRSdDVMMUJKR2pnSkhlMFZJYnNyQTZ6Q3ZEY01YdnpJbndJN0JVWldSUWtwMTNoeDZyYW9TSzg4eDJla3Y3MWRJOFU0MlM0MjFCNk9DQWpBd2dnSXNNQTRHQTFVZER3RUJfd1FFQXdJSGdEQVRCZ05WSFNVRUREQUtCZ2dyQmdFRkJRY0RBVEFNQmdOVkhSTUJBZjhFQWpBQU1CMEdBMVVkRGdRV0JCUzRnb0c5eFRxUmVxU05MU3h2dkFqOGRfVTdsVEFmQmdOVkhTTUVHREFXZ0JTdVNKN2NoeDFFb0dfYW91VmdkQVI0d3B3QWdEQXlCZ2dyQmdFRkJRY0JBUVFtTUNRd0lnWUlLd1lCQlFVSE1BS0dGbWgwZEhBNkx5OWxOeTVwTG14bGJtTnlMbTl5Wnk4d0x3WURWUjBSQkNnd0pvSVNLaTV5WldGamRHTm9ZWFIwWlhJdWRHOXdnaEJ5WldGamRHTm9ZWFIwWlhJdWRHOXdNQk1HQTFVZElBUU1NQW93Q0FZR1o0RU1BUUlCTUMwR0ExVWRId1FtTUNRd0lxQWdvQjZHSEdoMGRIQTZMeTlsTnk1akxteGxibU55TG05eVp5OHhPQzVqY213d2dnRU1CZ29yQmdFRUFkWjVBZ1FDQklIOUJJSDZBUGdBZGdEQ01YNVhSUm1qUmU1X09ONnlrRUhyeDhJaFdpS19mOVcxclhhYTJRNVN6UUFBQVoydTZabGxBQUFFQXdCSE1FVUNJUUQtVE1kN3I1c1l4Z0FVaTJMX0lvM0NWeTJvRnRZMWtyYTdJdTBkdVFHMEF3SWdLS2cwMlFNMlROTUhHcHJ6QWFzNUdQcm1BZXJXYkVCU1RvRjFPdHc0TUQ4QWZnQW00MlJ1V0draEk3dzBQMGNrTlpzM2tzMGtXb2pZRmRPVE1fMlpHS3RISXdBQUFaMnU2Wm1lQUFnQUFBVUFDUG5Sd0FRREFFY3dSUUloQUpuNUtZRXNTak50QXVfUmJiWUZaVHJvSjR5Rml1bmtETklVeVB6bGRhU0JBaUFTVW9uckxwRWFOZ2RZT195MzhYWlN6ek5IUFRaZndudURRUElFQlRkM2lqQUtCZ2dxaGtqT1BRUURBd05uQURCa0FqRUFfTjM3clU1eElscVlKWWxQR1pQdU4zNXRKSEVLLWltRC1jV3pybWl6VGxxVHA1Q1dFU0RBWmJCYmR2MHdQV1diQWk5dTBRYXA4OGhpZEl5THJtLTFNMU5hSW42RTVfSEZPamY4OUp2Z3RCS3FMWkdma1YxTjFUelEzWmlXLUVxUWlnIiwKICAicmVhc29uIjogMAp9"
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMzI2MDQ5MTY3MSIsICJub25jZSI6ICJJUnI0a1Nzc1MtS3BXRkpDV0hNTGJyOXdfVlUxamEzdGR0bUo1ODBQeXEwWFk2Mmp0RmMiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL3Jldm9rZS1jZXJ0In0",
+  "signature": "JthroXXJixs_WgNsH2PKl3hLw2HAw4GIKIkWPo-n4LJ4p2Ev_D7qmt2ugYJ303Bd8bdt3qHr47fEkPhSXiu8mgN8KlONAeRpszohp6BmxaxqYbFamXujJDOZnwtpuCObF7slGLQliPEYxEucfXN5fxsBPU73fen7VgL55rz9RCKkUe7VtSORJv4NhRvFPdAtj8XiHwNOfvyUiy0TYjt2eK1-DEUIP2jkzOKxkB0QDkjLt38zioE-L_uyBD5gmHMlz4AybHg5LtzCElEV3z30Gwgf_2YquRIaqDCsghyR0mORr0gTsEzShQlTl_KVyccXUATj5M_bez6cqtKH_umniw",
+  "payload": "ewogICJjZXJ0aWZpY2F0ZSI6ICJNSUlEdmpDQ0EwT2dBd0lCQWdJU0JlQzlJa0NsRm5VWnJ2R3ZLYTFseFBwZk1Bb0dDQ3FHU000OUJBTURNREl4Q3pBSkJnTlZCQVlUQWxWVE1SWXdGQVlEVlFRS0V3MU1aWFFuY3lCRmJtTnllWEIwTVFzd0NRWURWUVFERXdKRk9EQWVGdzB5TmpBME1qRXdOakl6TWpaYUZ3MHlOakEzTWpBd05qSXpNalZhTUIweEd6QVpCZ05WQkFNTUVpb3VjbVZoWTNSamFHRjBkR1Z5TG5SdmNEQjJNQkFHQnlxR1NNNDlBZ0VHQlN1QkJBQWlBMklBQktsc0ZvZG1vNWhrSUx6SWM1TVl4MUJmLUJhd3pRRm9nc0htSl9WdzRXM09Gal9HOEl5VWJaOWlYZzk0TE9Wd1RGMWRjTktEMWo5NHoySFlLMkNLWnFjQlRkb1d6YkE4WWxyUUxuLWswaHRtYXh1eUpWLTQ5TWdhVkRWSzBLYWV6cU9DQWk4d2dnSXJNQTRHQTFVZER3RUJfd1FFQXdJSGdEQVRCZ05WSFNVRUREQUtCZ2dyQmdFRkJRY0RBVEFNQmdOVkhSTUJBZjhFQWpBQU1CMEdBMVVkRGdRV0JCUjNJeTRpcE1wWG0za0xmM1pNZnQwNVAzQ25sREFmQmdOVkhTTUVHREFXZ0JTUERST2k5aTUtMFZCc014ZzRYVm1PSTNLUnlqQXlCZ2dyQmdFRkJRY0JBUVFtTUNRd0lnWUlLd1lCQlFVSE1BS0dGbWgwZEhBNkx5OWxPQzVwTG14bGJtTnlMbTl5Wnk4d0x3WURWUjBSQkNnd0pvSVNLaTV5WldGamRHTm9ZWFIwWlhJdWRHOXdnaEJ5WldGamRHTm9ZWFIwWlhJdWRHOXdNQk1HQTFVZElBUU1NQW93Q0FZR1o0RU1BUUlCTUMwR0ExVWRId1FtTUNRd0lxQWdvQjZHSEdoMGRIQTZMeTlsT0M1akxteGxibU55TG05eVp5ODVOaTVqY213d2dnRUxCZ29yQmdFRUFkWjVBZ1FDQklIOEJJSDVBUGNBZFFETE9QY1ZpWHlFb1VSZlc4SGQtOGx1OHBwWnpVY0thUVdGc01zVXd4Ulk1d0FBQVoydTZzd21BQUFFQXdCR01FUUNJQjZyNkVpUnc3dnBOdXZrTW5Uc1JUZzdrTUVVR2FHcUY1ejh1bWtSNXBVRkFpQUVxbkdWZjZ2bW5yaGxWbHlOS3NYWXh2Tm9BRS1fVU44UXJuM3Y3SWFSWXdCLUFCcUxuV3NQX3ItQnRIazV4dEl4Q29iVzBRTFU4RWJpR0N5ZDQxOWVKaVh2QUFBQm5hN3F6TjBBQ0FBQUJRQUsyOUE3QkFNQVJ6QkZBaUJLeXdNblMyd1FJcVY5Q0l0aHd4TEUzaG1UUmU1dlI3SFM5Um00WWNYLWlnSWhBS05sQ3JIQlpOMWRoN0w0UjFyc1Jxb283MnRyRDVqY3VhZ1VvUDBrenV4b01Bb0dDQ3FHU000OUJBTURBMmtBTUdZQ01RREV1d0ttNk1jeXpaM0lGQ21nYUtRbmRKNnFCdkxHS2J2T25fS0c4ZjE5LUdDWkZURS1DenY0cDRGWnhZUmJ3b2tDTVFEVTZSbzVMVWRiQkdqc0NDNkZESHdjTVV4TVlra0J5ejYtUWxKdzhtXzVvbWFUSWMxM3VQWHZhV3hNU3dVQlc4USIsCiAgInJlYXNvbiI6IDAKfQ"
 }
-2026-04-21 07:22:07,884:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/revoke-cert HTTP/1.1" 200 0
-2026-04-21 07:22:07,885:DEBUG:acme.client:Received response:
+2026-04-21 07:22:14,400:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/revoke-cert HTTP/1.1" 200 0
+2026-04-21 07:22:14,401:DEBUG:acme.client:Received response:
 HTTP 200
 Server: nginx
-Date: Tue, 21 Apr 2026 07:22:07 GMT
+Date: Tue, 21 Apr 2026 07:22:14 GMT
 Content-Length: 0
 Connection: keep-alive
 Cache-Control: public, max-age=0, no-cache
 Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
-Replay-Nonce: c3cZkimoliH6ccFaQLFSeK5uNYhZLrGw628uynFtdLqlmmRiZbo
+Replay-Nonce: IRr4kSssKpW4pHSlgfLDRUsFnL4foEamkyH5kG0naY5cf4uOUbE
 X-Frame-Options: DENY
 Strict-Transport-Security: max-age=604800
 
 
-2026-04-21 07:22:07,886:DEBUG:acme.client:Storing nonce: c3cZkimoliH6ccFaQLFSeK5uNYhZLrGw628uynFtdLqlmmRiZbo
-2026-04-21 07:22:07,903:INFO:certbot._internal.storage:Removed /etc/letsencrypt/renewal/npm-1.conf
-2026-04-21 07:22:07,904:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-1/cert.pem
-2026-04-21 07:22:07,904:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-1/privkey.pem
-2026-04-21 07:22:07,905:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-1/chain.pem
-2026-04-21 07:22:07,905:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-1/fullchain.pem
-2026-04-21 07:22:07,906:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-1/README
-2026-04-21 07:22:07,906:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-1
-2026-04-21 07:22:07,908:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/archive/npm-1
-2026-04-21 07:22:07,908:DEBUG:certbot._internal.display.obj:Notifying user: Deleted all files relating to certificate npm-1.
-2026-04-21 07:22:07,909:DEBUG:certbot._internal.display.obj:Notifying user: Congratulations! You have successfully revoked the certificate that was located at /etc/letsencrypt/live/npm-1/fullchain.pem.
+2026-04-21 07:22:14,401:DEBUG:acme.client:Storing nonce: IRr4kSssKpW4pHSlgfLDRUsFnL4foEamkyH5kG0naY5cf4uOUbE
+2026-04-21 07:22:14,413:INFO:certbot._internal.storage:Removed /etc/letsencrypt/renewal/npm-2.conf
+2026-04-21 07:22:14,414:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-2/cert.pem
+2026-04-21 07:22:14,414:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-2/privkey.pem
+2026-04-21 07:22:14,415:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-2/chain.pem
+2026-04-21 07:22:14,415:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-2/fullchain.pem
+2026-04-21 07:22:14,416:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-2/README
+2026-04-21 07:22:14,416:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/live/npm-2
+2026-04-21 07:22:14,418:DEBUG:certbot._internal.storage:Removed /etc/letsencrypt/archive/npm-2
+2026-04-21 07:22:14,418:DEBUG:certbot._internal.display.obj:Notifying user: Deleted all files relating to certificate npm-2.
+2026-04-21 07:22:14,419:DEBUG:certbot._internal.display.obj:Notifying user: Congratulations! You have successfully revoked the certificate that was located at /etc/letsencrypt/live/npm-2/fullchain.pem.
