@@ -1,0 +1,2 @@
+2026/06/28 21:43:45 [error] 227#227: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/"
+2026/06/28 21:43:46 [error] 227#227: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:81", referrer: "http://localhost:81/"
